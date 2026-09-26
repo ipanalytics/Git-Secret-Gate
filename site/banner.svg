@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" width="1600" height="400" role="img" aria-label="Git-Secret-Gate">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#131a2b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="400" fill="url(#bg)"/>
+  <rect width="1600" height="400" fill="url(#grid)" opacity="0.55"/>
+  <rect x="0" y="0" width="8" height="400" fill="#22d3ee"/>
+
+  <g transform="translate(1440 60)" fill="none" stroke="#22d3ee" stroke-width="3" opacity="0.75">
+    <rect x="0" y="40" width="56" height="80" rx="6"/>
+    <path d="M14 40V26a14 14 0 0 1 28 0v14"/>
+    <circle cx="28" cy="80" r="6" fill="#22d3ee" stroke="none"/>
+    <path d="M28 86v18" stroke-linecap="round"/>
+  </g>
+
+  <text x="96" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="82" font-weight="700" fill="#e5e7eb" letter-spacing="-1">
+    Git-Secret-Gate
+  </text>
+
+  <text x="99" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="27" fill="#94a3b8">
+    Screen a commit or a push for credentials and destructive commands
+  </text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" fill="#7c8ba1">
+    <text x="99" y="306">33 rules</text>
+    <text x="240" y="306">offline</text>
+    <text x="360" y="306">no model</text>
+    <text x="520" y="306">exit code 0 / 1 / 2</text>
+  </g>
+
+  <rect x="96" y="330" width="52" height="3" fill="#22d3ee"/>
+  <rect x="156" y="330" width="20" height="3" fill="#334155"/>
+  <rect x="184" y="330" width="20" height="3" fill="#334155"/>
+</svg>
