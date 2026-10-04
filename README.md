@@ -14,7 +14,7 @@ _Русская версия: [README.ru.md](README.ru.md)_
   <img src="https://img.shields.io/badge/network-not%20required-brightgreen" alt="No network">
 </p>
 
-A pre-commit and pre-push hook that screens the lines a commit or a push is about to introduce and stops it when it carries a credential, a key file or a destructive command. It has no network access, no model and no service behind it: the check is a set of regular expressions, a set of file-name patterns, an entropy test, and a report that masks every match so a blocked commit never prints the secret into a terminal or a CI log.
+A Git pre-commit and pre-push gate for AI agent repositories: it screens the lines a commit or a push is about to introduce and stops it when it carries a credential, a key file or a destructive command. It has no network access, no model and no service behind it: the check is a set of regular expressions, a set of file-name patterns, an entropy test, and a report that masks every match so a blocked commit never prints the secret into a terminal or a CI log.
 
 ---
 
